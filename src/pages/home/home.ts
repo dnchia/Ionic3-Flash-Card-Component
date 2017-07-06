@@ -7,6 +7,9 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  public flashCardFront : string = "Front text";
+  public flashCardBack : string = "Back text";
+
   constructor(public navCtrl: NavController) {
 
   }

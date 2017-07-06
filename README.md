@@ -1,26 +1,18 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Flash card component in Ionic 3
+This application is a demo to show the implementation of a flash card component.
+Is usable in web and mobile environments, and could be used in Angular applications without any modification.
 
-## How to use this template
+![Dependencies status](https://david-dm.org/dnchia/Ionic3-Flash-Card-Component.svg)
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## How it works
+All the implementation is done in a @Component that can be used anywhere inside the application.
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## How to use it
+The demo can be executed like any other Ionic application, using the Ionic CLI command: `ionic serve` to execute it in development mode.
 
-### With the Ionic CLI:
+## References
+The original example was done following the tutorial made by Joshua Morony ([@joshuamorony](https://github.com/joshuamorony)) in
+[Build a Custom Flash Card Component in Ionic 2 & 3](https://www.joshmorony.com/build-a-custom-flash-card-component-in-ionic-2/).
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+In this example the code has been modified to introduce the card text using @Input() directives.
+Also, the background color of the back side has been changed too, to show that is easy to customize.
